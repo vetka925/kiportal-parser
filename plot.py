@@ -25,4 +25,4 @@ layout = {'title': 'Статистика рейтингов'}
 fig = go.Figure(data=data, layout=layout)
 iplot(fig, show_link=False)
 
-plotly.offline.plot(fig, filename='ki-ratings.html', show_link=False)
+plotly.offline.plot(fig, filename='ratings_statistic_plot.html', show_link=False)

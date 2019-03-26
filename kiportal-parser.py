@@ -63,4 +63,4 @@ if  __name__ ==  "__main__" :
                             member_info[info.findAll('td')[0].text] = info.findAll('td')[1].text
         df = df.append(member_info, ignore_index=True)
 
-    df.to_csv('kiportal-dataframe.csv')
+    df.to_csv('data/kiportal-dataframe.csv')
